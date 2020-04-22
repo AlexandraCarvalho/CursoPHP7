@@ -48,7 +48,9 @@ $bloqueado = false;
 /////////////////////////////////////////////////
 $frutas = array("amora","laranja","coco");
 
+
 //listando um item do array, nesse caso a "laranja":
+echo "<br;>";
 echo $frutas[1];
 
 //declarando um objeto, usando a palavra reservada 'new'
@@ -57,9 +59,10 @@ $nascimento = new DateTime();
 /////////////////////////////////////////////////////
 
 $arquivo = fopen("exemplos.php","r"); //leitura de arquivos(resource)
+echo "<br/>";
 var_dump($arquivo);
 
-$nulo = NULL; //variavel do tipo nulo(que é a ausencia de valor)
+//$nulo = NULL; //->variavel do tipo nulo(que é a ausencia de valor)
 
 //DICA! declarar variaveis sempre autoexplicativas.
 
