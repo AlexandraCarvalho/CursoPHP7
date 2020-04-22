@@ -20,11 +20,19 @@ $anoNascimento = 1995;
 $nome_completo = "Alexandra Carvalho";
 
 //limpando a variavel -pode ser passado mais de uma variável
-unset($anoNascimento);
+unset($nome_completo);
 
 //chamando a variável, caso ela tenha sido definida
-if (isset($nome_completo)){
-    echo($nome_completo);
+if (isset($anoNascimento)){
+    echo($anoNascimento);
 }
+
+$sobrenome = "Carvalho";
+
+//concatenação de variáveis
+$nomeCompleto = $nome . " " . $sobrenome;
+
+echo($nomeCompleto);
+
 
 ?>
