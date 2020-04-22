@@ -1,5 +1,5 @@
 <?php
-/*exdemplo-01*/
+/*exemplo-01*/
 
 //declaração de variável
 $nome = "Alexandra";
@@ -32,7 +32,36 @@ $sobrenome = "Carvalho";
 //concatenação de variáveis
 $nomeCompleto = $nome . " " . $sobrenome;
 
+echo "<br/>";
 echo($nomeCompleto);
 
+/*exemplo-03*/
 
+//tipos de dados:
+$empresa= "HCode";
+$site = 'www.hcode.com.br';
+
+$ano = 1990;
+$salario = 5500.99;
+
+$bloqueado = false;
+/////////////////////////////////////////////////
+$frutas = array("amora","laranja","coco");
+
+//listando um item do array, nesse caso a "laranja":
+echo $frutas[1];
+
+//declarando um objeto, usando a palavra reservada 'new'
+$nascimento = new DateTime();
+
+/////////////////////////////////////////////////////
+
+$arquivo = fopen("exemplos.php","r"); //leitura de arquivos(resource)
+var_dump($arquivo);
+
+$nulo = NULL; //variavel do tipo nulo(que é a ausencia de valor)
+
+//DICA! declarar variaveis sempre autoexplicativas.
+
+/**15.variáveis pré-definidas**/
 ?>
