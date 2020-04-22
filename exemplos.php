@@ -22,7 +22,9 @@ $nome_completo = "Alexandra Carvalho";
 //limpando a variavel -pode ser passado mais de uma variável
 unset($anoNascimento);
 
-//echo $anoNascimento;//chamando novamente a variável que foi limpa
-echo($nome_completo);
+//chamando a variável, caso ela tenha sido definida
+if (isset($nome_completo)){
+    echo($nome_completo);
+}
 
 ?>
