@@ -66,5 +66,10 @@ var_dump($arquivo);
 
 //DICA! declarar variaveis sempre autoexplicativas.
 
-/**15.variáveis pré-definidas**/
+/*exemplo-04*/
+//variaveis globais
+
+$name = (int)$_GET["a"]; //fazendo casting pra inteiro
+var_dump($name); //retorna essa variável na tela
+
 ?>
