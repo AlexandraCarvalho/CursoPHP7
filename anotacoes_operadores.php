@@ -55,7 +55,7 @@ var_dump($c != $d);
 echo "<br>";
 var_dump($c !== $d); 
 
-/*operador space chip (o primeiro maior =1, iguais 0, o segundo maior=-1)*/
+/*operador spaceship (o primeiro maior =1, iguais 0, o segundo maior=-1)*/
 echo "<br>";
 var_dump($d <=> $c);
 
@@ -66,4 +66,20 @@ $g = 25;
 
 echo $e ?? $f ?? $g;//mostra a não nula
 
+/*operador de incremento, ou decreento (--)*/
+$h = 10;
+//aqui acrescenta + 1
+echo $h++;
+echo "<br>";
+echo $h;
+// tem tbm o pre incremento
+echo "<br>";
+echo ++$h;
+
+/*operadores logicos*/
+ $i && $j;//E
+
+ $i || $j;//OU
+
+ ! $i; //NÃO
 ?>
