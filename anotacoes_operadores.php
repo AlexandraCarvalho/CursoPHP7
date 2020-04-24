@@ -1,7 +1,7 @@
 <?php
 /*atribuição*/
-$nome = "Alexandra";
-
+/**$nome = "Alexandra";
+*
 /*concatenação*/
 echo $nome . "desenvolvedora";
 
